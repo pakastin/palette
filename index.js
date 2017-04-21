@@ -12,7 +12,7 @@ for (let shift = -30; shift <= 30; shift += 7.5) {
   });
 
   for (let _h = 0; _h < 360; _h += 30) {
-    const h = Math.round(_h - shift / 4 + 7.5);
+    const h = Math.round(_h - shift / 4 + 4);
     _colors.push({ h, s, l });
   }
 
