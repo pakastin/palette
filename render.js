@@ -20,6 +20,8 @@ fs.writeFile('dist/index.html', `
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <title>Palette</title>
     <style>
       * {
         margin: 0;
@@ -39,7 +41,6 @@ fs.writeFile('dist/index.html', `
       .color {
         box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .05), inset 0 1px 0 rgba(255, 255, 255, .05);
         position: relative;
-        transition: all .2s;
       }
       .color:hover {
         transform: scale(1.2, 1.2);
