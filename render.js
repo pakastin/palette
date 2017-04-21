@@ -59,7 +59,7 @@ fs.writeFile('dist/index.html', `
         text-align: center;
         line-height: 1em;
         padding: .5em;
-        background-color: rgba(255, 255, 255, .25);
+        background-color: rgba(255, 255, 255, .75);
       }
     </style>
   </head>
