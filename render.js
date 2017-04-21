@@ -76,7 +76,7 @@ fs.writeFile('dist/index.html', `
 
         var p = document.createElement('p');
 
-        p.textContent = '#' + $color.style.backgroundColor.slice(4, -1).split(',').map(str => parseInt(str).toString(16)).join('');
+        p.textContent = '#' + $color.style.backgroundColor.slice(4, -1).split(',').map(str => ('0' + parseInt(str).toString(16)).slice(-2)).join('');
 
         $color.appendChild(p);
       }
